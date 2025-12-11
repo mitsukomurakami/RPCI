@@ -1,5 +1,6 @@
 #!/bin/bash
 # align.sh
+# - for target sequencing 
 
 if [[ $# -eq 0 ]] ; then
     echo "Usage: ./align.sh <patientID>"
