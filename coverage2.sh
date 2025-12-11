@@ -7,7 +7,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 pid=$1
 
-module load gcc mosdepth
+#module load gcc mosdepth 
 
 PREFIX=/projects/rpci/songliu/mkorobkin
 PID=RQ026467-Huss
