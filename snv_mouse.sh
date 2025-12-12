@@ -2,7 +2,7 @@
 # snv_mouse.sh
 
 if [[ $# -eq 0 ]] ; then
-    echo "Usage: ./snv_mouse.sh <patientID>"
+    echo "Usage: ./snv_mouse.sh <mouseID>"
     exit 1
 fi
 pid=$1
