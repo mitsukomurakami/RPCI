@@ -13,6 +13,7 @@ PID=RQ026467-Huss
 
 JOBDIR=$PREFIX/projects/$PID/$pid
 DATADIR=$JOBDIR/data
+#DATADIR=$JOBDIR/data2 ## if trimmed
 OUTDIR=$JOBDIR/output
 
 ## Reference genome
