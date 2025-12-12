@@ -14,8 +14,9 @@ PREFIX=/projects/rpci/songliu/mkorobkin
 PID=RQ023608-Wei
 
 JOBDIR=$PREFIX/projects/$PID/$pid
-DATADIR=$JOBDIR/data2  ## trimmed
-OUTDIR=$JOBDIR/output2
+DATADIR=$JOBDIR/data  
+#DATADIR=$JOBDIR/data2  ## if trimmed
+OUTDIR=$JOBDIR/output
 
 SRCDIR=$JOBDIR/src
 mkdir -p $SRCDIR
