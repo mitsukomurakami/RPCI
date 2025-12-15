@@ -85,9 +85,9 @@ paramList <- list(ref = "$rfile")
 runCWLBatch(bambino, outdir = "$OUTDIR/variants2", inputList, paramList,
             BPPARAM = BatchtoolsParam(workers = lengths(inputList)[1],
                                       cluster = "slurm",
-                                      #template = "$PREFIX/rcwl/slurm_rpci.tmpl",
-                                      #template = "$PREFIX/rcwl/slurm_nih.tmpl",
-                                      template = "$PREFIX/rcwl/slurm_nih_2.tmpl",
+                                      #template = "$PREFIX/rcwl/slurm_rpci.tmpl",  ## RPCI cluster
+                                      #template = "$PREFIX/rcwl/slurm_nih.tmpl",  ## ub-hpc:general-compute
+                                      template = "$PREFIX/rcwl/slurm_nih_2.tmpl", ## up-hpc:scavenger
                                       resources = list(ncpus = 1,
                                                        jobname = "snv5",
                                                        walltime = 60*60*48,
