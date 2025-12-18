@@ -33,7 +33,8 @@ echo $tid -- $nid
 
 # Write an R script
 cat > $SRCDIR/combine.R << EOF
-devtools::load_all("/projects/rpci/songliu/qhu/workspace/projects/VariantCombiner/")
+#devtools::load_all("/projects/rpci/songliu/qhu/workspace/projects/VariantCombiner/")
+devtools::load_all("/projects/rpci/songliu/mkorobkin/rcwl/VariantCombiner/")  ## for debugging
 
 varcombiner <- function(ss, si, m2, mu, vd, id_t, id_n){
     
