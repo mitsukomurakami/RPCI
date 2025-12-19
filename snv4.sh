@@ -62,6 +62,7 @@ binPath
 # Load pipeline
 cwlInstall("pl_SomaticCaller4")
 inputs(SomaticCaller4)
+devtools::load_all("/projects/rpci/songliu/qhu/workspace/projects/VariantCombiner/")
 
 # Prepare inputs
 ref <- "$rfile"
